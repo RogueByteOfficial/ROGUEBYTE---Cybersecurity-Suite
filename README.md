@@ -70,9 +70,9 @@
 5. **Least Privilege**: The application runs completely in user space. Administrator/root elevation is never requested.
 
 ---
-![RogueByte-GeoForensics-Intelligence screenshot](Screenshot 2026-10-12 030449.png)
-![RogueByte-GeoForensics-Intelligence screenshot](Screenshot 2026-10-12 030514.png)
-![RogueByte-GeoForensics-Intelligence screenshot](Screenshot 2026-10-12 030543.png)
+![RogueByte-GeoForensics-Intelligence screenshot](screenshot)
+![RogueByte-GeoForensics-Intelligence screenshot](screenshot1)
+![RogueByte-GeoForensics-Intelligence screenshot](screenshot2)
 
 ## 4. Installation & Launch Guides
 
