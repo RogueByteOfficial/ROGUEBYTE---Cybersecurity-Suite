@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "roguebyte"
+version = "1.0.0"
+description = "ROGUEBYTE - Professional Cybersecurity & Network Defense Suite"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "PySide6>=6.6.0",
+    "psutil>=5.9.8",
+    "fastapi>=0.110.0",
+    "uvicorn[standard]>=0.29.0",
+    "pydantic>=2.6.0",
+    "requests>=2.31.0",
+    "pytest>=8.0.0",
+    "pyinstaller>=6.5.0"
+]
+
+[project.scripts]
+roguebyte = "app:main"

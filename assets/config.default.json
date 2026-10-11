@@ -1,0 +1,38 @@
+{
+  "app_name": "ROGUEBYTE",
+  "version": "1.0.0",
+  "environment": "production",
+  "api_host": "127.0.0.1",
+  "api_port": 8765,
+  "db_path": "roguebyte.db",
+  "log_level": "INFO",
+  "allowed_targets": [
+    "localhost",
+    "127.0.0.1",
+    "::1",
+    "0.0.0.0",
+    "http://localhost",
+    "http://127.0.0.1",
+    "https://localhost",
+    "https://127.0.0.1",
+    "testserver.local",
+    "dev.local"
+  ],
+  "load_test": {
+    "target_url": "http://127.0.0.1:8765/health",
+    "total_requests": 50,
+    "concurrency": 5,
+    "max_duration_sec": 10,
+    "rate_limit_rps": 20,
+    "timeout_sec": 3.0,
+    "dry_run": false
+  },
+  "dos_detection": {
+    "rate_threshold_rpm": 300,
+    "burst_threshold_rps": 35,
+    "ip_concentration_pct": 40.0,
+    "error_spike_threshold_pct": 50.0,
+    "sliding_window_seconds": 60
+  },
+  "system_monitor_interval_sec": 1.0
+}

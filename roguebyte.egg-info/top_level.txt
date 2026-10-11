@@ -1,0 +1,7 @@
+app
+config
+core
+database
+modules
+tests
+ui
